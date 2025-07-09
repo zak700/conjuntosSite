@@ -2,7 +2,7 @@ import { Outlet, Link, useLocation, useNavigate } from "react-router-dom";
 import styles from "./Layout.module.css";
 import { Button, Image, Stack, Nav } from "react-bootstrap";
 import { useState } from "react";
-
+ 
 export default function Header() {
   const location = useLocation();
   const navigate = useNavigate();
