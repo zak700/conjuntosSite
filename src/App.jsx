@@ -12,10 +12,10 @@ function App() {
       <Routes>
         <Route path="/conjuntosSite" element={<Layout />}>
           <Route path="" element={<Main />} />
-          <Route path="/javascript_basico" element={<JavaScript />} />
-          <Route path="/loops" element={<Loops />} />
-          <Route path="/objetos" element={<Objetos />} />
-          <Route path="/quiz-objetos" element={<ObjetosQuiz />} />
+          <Route path="javascript_basico" element={<JavaScript />} />
+          <Route path="loops" element={<Loops />} />
+          <Route path="objetos" element={<Objetos />} />
+          <Route path="quiz-objetos" element={<ObjetosQuiz />} />
         </Route>
       </Routes>
     </BrowserRouter>
