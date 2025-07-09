@@ -8,9 +8,9 @@ import ObjetosQuiz from "./pages/objetosQuiz/ObjetosQuiz";
 
 function App() {
   return (
-    <BrowserRouter basename="/conjuntosSite">
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/conjuntosSite" element={<Layout />}>
           <Route path="" element={<Main />} />
           <Route path="/javascript_basico" element={<JavaScript />} />
           <Route path="/loops" element={<Loops />} />
