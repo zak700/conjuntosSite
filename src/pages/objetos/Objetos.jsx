@@ -127,7 +127,7 @@ export default function Objetos() {
           <Button
             variant="outline-primary"
             className="w-100"
-            onClick={() => navigate("/quiz-objetos")}
+            onClick={() => navigate("/conjuntosSite/quiz-objetos")}
           >
             Fazer Quiz
           </Button>

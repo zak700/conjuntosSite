@@ -2,21 +2,21 @@ import { Outlet, Link, useLocation, useNavigate } from "react-router-dom";
 import styles from "./Layout.module.css";
 import { Button, Image, Stack, Nav } from "react-bootstrap";
 import { useState } from "react";
- 
+
 export default function Header() {
   const location = useLocation();
   const navigate = useNavigate();
   // Map your page names to routes and icons
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const pages = [
-    { name: "Conjuntos", route: "/", icon: "bi-collection" },
+    { name: "Conjuntos", route: "/conjuntosSite/", icon: "bi-collection" },
     {
       name: "javascript_básico",
-      route: "/javascript_basico",
+      route: "/conjuntosSite/javascript_basico",
       icon: "bi-code-slash",
     },
-    { name: "LOOPS", route: "/loops", icon: "bi-arrow-repeat" },
-    { name: "Objetos", route: "/objetos", icon: "bi-link-45deg" },
+    { name: "LOOPS", route: "/conjuntosSite/loops", icon: "bi-arrow-repeat" },
+    { name: "Objetos", route: "/conjuntosSite/objetos", icon: "bi-link-45deg" },
   ];
 
   return (
