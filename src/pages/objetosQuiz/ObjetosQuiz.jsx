@@ -118,7 +118,7 @@ export default function ObjetosQuiz() {
           </>
         ) : currentQuestion < questions.length ? (
           <>
-            <h5 className="mb-3"> 
+            <h5 className="mb-3">
               Olá, <strong>{name}</strong>!
             </h5>
 
